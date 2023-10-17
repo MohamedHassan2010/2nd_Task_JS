@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:rgb(233, 233, 233);">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+
+<body>
+        <h1 align="center" style="color:rgb(38, 0, 255);"><b>Education Academy</b></h1>
+        <form onsubmit="return formValidate()" method="post" style="justify-content:center; display: flex;" style="width: fit-content;" >
+            <fieldset>
+                <label style="margin-left: 155px; margin-right: 90px;" id="error">Please Fill all fields</label>
+                <br>
+                <br>
+                <input style="margin-left: 90px; margin-right: 90px;" type="text"
+                    placeholder="Enter your user name" size="35" id="username">
+                <br>
+                <br>
+                <input style="margin-left: 90px; margin-right: 90px;" type="password" placeholder="Enter your password"
+                    size="35" id="password">
+                <br>
+                <br>
+                <input style="margin-left: 180px; margin-right: 180px;" type="submit" value="Create Account">
+                <br>
+            </fieldset>
+        </form>
+
+<script src="main_validation.js"></script>
+
+</body>
+
+</html>
